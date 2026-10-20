@@ -1,0 +1,640 @@
+<!doctype html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<title>Skin Vital Lézer Stúdió és Kozmetika</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Georama:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+body{margin:0;font-family:'Georama',system-ui,sans-serif;font-size:16px;color:#3E4546;background:#EEFBFA}
+html{scroll-behavior:smooth}
+a{color:#1C7A7D}
+a:hover{color:#0F4B4E}
+.d{font-family:'Bodoni Moda','Didot',Georgia,serif;font-optical-sizing:auto;font-weight:500;color:#0F4B4E;letter-spacing:-0.01em}
+.h1{margin:0;font-size:clamp(38px,4.4vw,60px);line-height:1.06;text-wrap:balance}
+.h2{margin:0;font-size:clamp(30px,3.2vw,44px);line-height:1.1;text-wrap:balance}
+.h3{margin:0;font-family:'Georama',system-ui,sans-serif;font-size:19px;font-weight:600;line-height:1.3;color:#0F4B4E}
+.lead{margin:0;font-size:18px;line-height:1.65;max-width:58ch}
+.txt{margin:0;font-size:16px;line-height:1.65;max-width:62ch}
+.sm{margin:0;font-size:14px;line-height:1.55}
+.wrap{max-width:1200px;margin:0 auto;padding-left:24px;padding-right:24px;box-sizing:border-box}
+.rule{border-top:1px solid #BFE0DF}
+.bp{display:inline-flex;align-items:center;justify-content:center;min-height:54px;padding:0 30px;border-radius:999px;background:#1C7A7D;color:#fff;font-weight:600;font-size:17px;text-decoration:none;border:0;cursor:pointer;font-family:inherit}
+.bp:hover{background:#0F4B4E;color:#fff}
+.bs{display:inline-flex;align-items:center;justify-content:center;min-height:54px;padding:0;background:transparent;color:#0F4B4E;font-weight:600;font-size:16px;text-decoration:underline;text-underline-offset:5px;border:0;cursor:pointer;font-family:inherit}
+.bs:hover{color:#8E3550}
+.nl{color:#3E4546;text-decoration:none;padding:12px 0}
+.nl:hover{color:#8E3550}
+.chip{font-family:inherit;cursor:pointer;text-align:left}
+.srow{display:grid;grid-template-columns:minmax(0,1fr) auto 36px;align-items:center;column-gap:12px}
+.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.tl{font-family:inherit;cursor:pointer;background:transparent;border:0;border-bottom:2px solid transparent;padding:10px 0;min-height:44px;font-size:16px;color:#5F6566}
+a:focus-visible,button:focus-visible{outline:3px solid #B58F2E;outline-offset:3px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media (min-width:1000px){.hero{grid-template-columns:1.15fr 1fr !important}}
+@media (min-width:1200px){.svc-grid .svc-t{white-space:nowrap}}
+@media (min-width:1000px){.svc-grid{grid-template-columns:repeat(5,minmax(0,1fr)) !important;gap:0 24px !important;border-top:0 !important}.svc-grid .svc-row{grid-template-columns:minmax(0,1fr) !important;align-content:start !important;gap:6px !important;padding:0 !important;border-bottom:0 !important}.svc-grid .svc-thumb{width:100% !important;aspect-ratio:4/3 !important;grid-row:auto !important;margin-bottom:8px}.svc-grid .svc-t{font-size:20px !important}.svc-grid .svc-d{font-size:14px !important}}
+.hdr-burger{display:none}
+.mob-menu{display:none}
+.mob-total{display:none}
+@media (max-width:760px){#gyik{gap:20px !important}#gyik .chip{min-height:52px !important;padding:12px 0 !important;font-size:16px !important}#gyik .chip span[aria-hidden]{font-size:22px !important}.hmore{padding-bottom:56px !important;margin-top:-28px}.kpetal{display:none !important}.batabs{flex-wrap:nowrap !important;overflow-x:auto;gap:0 18px !important;scrollbar-width:none;margin-right:-24px;padding-right:24px}.batabs::-webkit-scrollbar{display:none}.batabs .tl{flex:none;white-space:nowrap}.hdr-cta{display:none !important}.hdr-nav{display:none !important}.hdr-burger{display:flex}.mob-menu{display:flex}
+.sec{padding-top:64px !important}
+.secb{padding-top:56px !important;padding-bottom:56px !important}
+.secm{margin-top:56px !important}
+.svc-row{grid-template-columns:72px minmax(0,1fr) !important;gap:2px 14px !important}.svc-thumb{width:72px !important}.svc-t{font-size:20px !important}.svc-d{font-size:14px !important}
+.row-book{display:none !important}
+.calc-wrap{gap:4px !important}
+.hero{gap:8px !important;padding-bottom:16px !important}
+.hero-img{display:none !important}
+.hero{padding-bottom:32px !important}
+.sumcol{gap:8px !important;padding-top:10px !important}
+.tot .d{font-size:30px !important}
+.sumfoot{flex-direction:row !important}
+.perks{grid-template-columns:repeat(2,minmax(0,1fr)) !important;font-size:15px !important}
+.zgrid{grid-template-columns:repeat(3,minmax(0,1fr)) !important;gap:18px 10px !important}
+.zgrid a{gap:8px !important}
+.zimg{aspect-ratio:3/4 !important;border-radius:10px !important}
+.zgrid .h3{font-size:14px !important;line-height:1.25 !important}
+.zgrid .sm{font-size:12px !important;line-height:1.35 !important}
+.cchip{min-height:40px !important;padding:0 12px !important;font-size:14px !important;gap:6px !important}
+.mob-hide{display:none !important}
+.hero-addr{border-left:0 !important;padding-left:0 !important}
+.hdr-logo{height:40px !important}
+.hdr-slogan{font-size:18px !important;line-height:22.5px !important;margin-top:3px !important}
+.kdl{gap:10px 16px !important;font-size:15px !important}
+.akc dt{font-size:16px !important}
+.akc dd{font-size:17px !important}
+img[width="160"]{width:104px !important;height:104px !important}
+dd.d{font-size:26px !important}
+.hdl{grid-template-columns:1.6fr 1fr 1fr !important;gap:12px !important}
+.hifu-main{aspect-ratio:16/10 !important;object-position:50% 30%}
+.hifu-dev{width:38% !important;right:8px !important;bottom:-20px !important;border-width:4px !important}
+.hdl dd.d{font-size:16px !important}
+.lead{font-size:17px}
+}
+</style>
+</helmet>
+
+<div id="top" style="background:#EEFBFA;min-width:0;overflow:hidden">
+
+<!-- Akciósáv -->
+<a href="#akciok" style="display:block;background:#0F4B4E;color:#fff;text-decoration:none">
+<span class="wrap" style="display:block;padding-top:11px;padding-bottom:11px;font-size:15px;line-height:1.45;text-align:center">Új akció: csomagajánlatok a kedvenc területekre és 7+3 alkalmas bérlet részletfizetéssel. <span style="color:#F4C9D2;font-weight:600;text-decoration:underline;text-underline-offset:3px;white-space:nowrap;margin-left:6px">Megnézem</span></span>
+</a>
+
+<!-- Fejléc -->
+<header>
+<div class="wrap" style="padding-top:22px;padding-bottom:16px;display:flex;flex-wrap:wrap;gap:8px 28px;align-items:center;justify-content:space-between">
+<a href="#top" aria-label="Skin Vital Lézer Stúdió és Kozmetika, kezdőlap" style="display:flex;align-items:center;gap:12px;text-decoration:none">
+<img class="hdr-logo" src="/_blob/4b11bcbfced16c09aeea44eb4bcc0c73" alt="Skin Vital" style="height:52px;width:auto;display:block">
+<span class="hdr-slogan" style="display:block;font-size:23.4px;line-height:29px;color:#1C7A7D;font-weight:500;text-box:trim-both cap alphabetic;margin-top:4px">Lézer Stúdió<br>és Kozmetika</span>
+</a>
+<nav class="hdr-nav" aria-label="Főmenü" style="display:flex;flex-wrap:wrap;gap:0 24px;font-size:16px">
+<a class="nl" href="#szortelenites">Szőrtelenítés</a>
+<a class="nl" href="#akciok">Akciók</a>
+<a class="nl" href="#kalkulator">Árkalkulátor</a>
+<a class="nl" href="#arckezelesek">Arckezelések</a>
+<a class="nl" href="#hifu">HIFU</a>
+<a class="nl" href="#rolunk">Rólunk</a>
+<a class="nl" href="#kapcsolat">Kapcsolat</a>
+</nav>
+<a class="bp hdr-cta" href="https://skin-vital.salonic.hu/" style="min-height:48px;padding:0 24px;font-size:16px">Időpontot foglalok</a>
+<button class="chip hdr-burger" onClick="{{toggleMenu}}" aria-expanded="{{menuOpen}}" aria-controls="mobil-menu" aria-label="{{menuLabel}}" style="flex:none;min-height:48px;padding:0 14px;border:1px solid #BFE0DF;border-radius:12px;background:#EEFBFA;color:#0F4B4E;align-items:center;gap:10px;font-size:16px;font-weight:600">
+<span>Menü</span>
+<sc-if value="{{menuClosed}}" hint-placeholder-val="{{true}}"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#5F6566" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></sc-if>
+<sc-if value="{{menuOpen}}" hint-placeholder-val="{{false}}"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#5F6566" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 15l6-6 6 6"/></svg></sc-if>
+</button>
+</div>
+<sc-if value="{{menuOpen}}" hint-placeholder-val="{{false}}">
+<nav id="mobil-menu" class="mob-menu" aria-label="Mobil menü" style="flex-direction:column;background:#EEFBFA;border:1px solid #BFE0DF;border-radius:14px;margin:0 24px 16px;padding:4px 18px 18px;box-shadow:0 16px 30px rgba(15,75,78,.10)">
+<a href="#szortelenites" onClick="{{closeMenu}}" style="display:flex;align-items:center;min-height:56px;border-bottom:1px solid #EEF6F6;color:#0F4B4E;font-size:18px;font-weight:500;text-decoration:none">Szőrtelenítés</a>
+<a href="#akciok" onClick="{{closeMenu}}" style="display:flex;align-items:center;min-height:56px;border-bottom:1px solid #EEF6F6;color:#0F4B4E;font-size:18px;font-weight:500;text-decoration:none">Akciók</a>
+<a href="#kalkulator" onClick="{{closeMenu}}" style="display:flex;align-items:center;min-height:56px;border-bottom:1px solid #EEF6F6;color:#0F4B4E;font-size:18px;font-weight:500;text-decoration:none">Árkalkulátor</a>
+<a href="#hifu" onClick="{{closeMenu}}" style="display:flex;align-items:center;min-height:56px;border-bottom:1px solid #EEF6F6;color:#0F4B4E;font-size:18px;font-weight:500;text-decoration:none">HIFU arcfeszesítés</a>
+<a href="#arckezelesek" onClick="{{closeMenu}}" style="display:flex;align-items:center;min-height:56px;border-bottom:1px solid #EEF6F6;color:#0F4B4E;font-size:18px;font-weight:500;text-decoration:none">Arckezelések</a>
+<a href="#rolunk" onClick="{{closeMenu}}" style="display:flex;align-items:center;min-height:56px;border-bottom:1px solid #EEF6F6;color:#0F4B4E;font-size:18px;font-weight:500;text-decoration:none">Rólunk</a>
+<a href="#kapcsolat" onClick="{{closeMenu}}" style="display:flex;align-items:center;min-height:56px;color:#0F4B4E;font-size:18px;font-weight:500;text-decoration:none">Kapcsolat</a>
+<a class="bp" href="https://skin-vital.salonic.hu/" style="margin-top:12px">Időpontot foglalok</a>
+<a href="tel:+36206178951" style="display:flex;align-items:center;justify-content:center;min-height:48px;margin-top:4px;font-weight:600">+36 20 617 8951</a>
+</nav>
+</sc-if>
+</header>
+
+<!-- Hero -->
+<section class="wrap hero" style="padding-top:40px;padding-bottom:40px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(470px,100%),1fr));gap:40px;align-items:center">
+<div style="display:flex;flex-direction:column;gap:26px;position:relative;z-index:1">
+<h1 class="d h1">Végleges szőrtelenítés az új generációs Elysion Pro diódalézerrel</h1>
+<p class="lead">Szabadulj meg egy kellemetlen problémától, és örökre megváltozik az életed. Néhány kezeléssorozat, és élvezheted a bársonyos érintést. Kizárólag hölgyeknek, Kispesten.</p>
+<div style="display:flex;flex-wrap:wrap;gap:12px 28px;align-items:center">
+<a class="bp" href="https://skin-vital.salonic.hu/">Időpontot foglalok</a>
+<a class="bs" href="https://skin-vital.salonic.hu/selectEmployee/?placeId=3555&amp;serviceId=167556">Ingyenes konzultációt kérek</a>
+</div>
+<div style="display:flex;flex-wrap:wrap;align-items:center;gap:4px 24px">
+<a href="#rolunk" style="display:flex;align-items:center;gap:12px;text-decoration:none;color:#3E4546">
+<span style="display:flex"><img src="/_blob/64641d501f61ea79cdb97405652eb40e" alt="" style="width:40px;height:40px;border-radius:50%;object-fit:cover;border:2px solid #EEFBFA"><img src="/_blob/8c8c4a1e14481043f5e84493ccb4e05c" alt="" style="width:40px;height:40px;border-radius:50%;object-fit:cover;border:2px solid #EEFBFA;margin-left:-12px"></span>
+<span style="display:flex;flex-direction:column;gap:1px;white-space:nowrap"><span style="font-size:15px"><span aria-hidden="true" style="color:#C9A04E;letter-spacing:1px">★★★★★</span> <strong style="color:#0F4B4E">5,0</strong></span><span class="sm">328 vendégvélemény a Salonicon</span></span>
+</a>
+<p class="sm hero-addr" style="font-size:15px;white-space:nowrap;border-left:1px solid #BFE0DF;padding-left:24px;display:flex;align-items:center;gap:6px"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1C7A7D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Toldy u. 19., Kispest <a href="https://maps.app.goo.gl/n5dcDMH4pwyh548D8" style="font-weight:600;margin-left:6px;display:inline-block;padding:10px 0">Útvonal</a></p>
+</div>
+</div>
+<div class="hero-img" style="position:relative;min-width:0;aspect-ratio:1/1;max-height:640px">
+<img class="hero-legs" src="/_blob/e3d42066cfb0388ab2dd46a3a307c7bb" alt="Sima, bársonyos női lábak" style="position:absolute;left:-6%;bottom:6%;width:112%;height:auto;display:block;filter:drop-shadow(0 26px 30px rgba(15,75,78,.16))">
+<img src="/_blob/4b6ad7c3c8992b7bbd29ad39f2b51355" alt="" aria-hidden="true" style="position:absolute;left:4%;top:0;width:22%;pointer-events:none">
+</div>
+</section>
+
+<div class="wrap"><ul class="perks" style="margin:0;padding:22px 0;list-style:none;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px 24px;font-size:16px;font-weight:500;color:#0F4B4E;border-top:1px solid #BFE0DF;border-bottom:1px solid #BFE0DF">
+<li style="display:flex;align-items:center;gap:10px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1C7A7D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Minden bőrtípuson</li>
+<li style="display:flex;align-items:center;gap:10px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1C7A7D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Minden évszakban</li>
+<li style="display:flex;align-items:center;gap:10px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1C7A7D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Fájdalommentes</li>
+<li style="display:flex;align-items:center;gap:10px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1C7A7D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Garantált eredmény</li>
+</ul></div>
+
+<!-- Területek -->
+<section id="szortelenites" class="wrap sec" style="padding-top:88px;padding-bottom:24px;display:flex;flex-direction:column;gap:36px">
+<div style="display:flex;flex-wrap:wrap;gap:12px 48px;align-items:flex-end;justify-content:space-between">
+<h2 class="d h2" style="max-width:640px">Melyik területtel kezdenéd?</h2>
+<p class="txt" style="max-width:400px">Koppints egy területre, és hozzáadjuk az árkalkulátorhoz.</p>
+</div>
+<div class="zgrid" style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px 20px">
+<a href="#kalkulator" onClick="{{zLab}}" style="display:flex;flex-direction:column;gap:12px;text-decoration:none;color:#3E4546"><img src="/_blob/5c53cdbd3a11854647df60a5b1438fbb" alt="Sima, bársonyos női lábak" class="zimg" style="width:100%;aspect-ratio:5/4;object-fit:cover;border-radius:12px;display:block;background:#fff"><span><span class="h3" style="display:block">Láb</span><span class="sm">11 000 Ft-tól</span></span></a>
+<a href="#kalkulator" onClick="{{zHonalj}}" style="display:flex;flex-direction:column;gap:12px;text-decoration:none;color:#3E4546"><img src="/_blob/652859b4f0a70079e90542d66cf1c54b" alt="Nő felemelt karral, sima hónalj" class="zimg" style="width:100%;aspect-ratio:5/4;object-fit:cover;object-position:50% 25%;border-radius:12px;display:block"><span><span class="h3" style="display:block">Hónalj</span><span class="sm">15 000 Ft</span></span></a>
+<a href="#kalkulator" onClick="{{zIntim}}" style="display:flex;flex-direction:column;gap:12px;text-decoration:none;color:#3E4546"><img src="/_blob/ef5b8ffa9400190b5a63912bbd68641e" alt="Nő fehér bikiniben a tengerparton" class="zimg" style="width:100%;aspect-ratio:5/4;object-fit:cover;object-position:55% 45%;border-radius:12px;display:block"><span><span class="h3" style="display:block">Bikinivonal és intim</span><span class="sm">15 000 Ft-tól</span></span></a>
+<a href="#kalkulator" onClick="{{zArc}}" style="display:flex;flex-direction:column;gap:12px;text-decoration:none;color:#3E4546"><img src="/_blob/2b3a6841cd33a12323880641100c03b3" alt="Ápolt bőrű nő profilból" class="zimg" style="width:100%;aspect-ratio:5/4;object-fit:cover;object-position:50% 15%;border-radius:12px;display:block"><span><span class="h3" style="display:block">Arc és nyak</span><span class="sm">11 000 Ft-tól</span></span></a>
+<a href="#kalkulator" onClick="{{zKar}}" style="display:flex;flex-direction:column;gap:12px;text-decoration:none;color:#3E4546"><img src="/_blob/14a12f8856b123e64bf0c9456cdf53d8" alt="Nyújtózkodó nő az ablak előtt" class="zimg" style="width:100%;aspect-ratio:5/4;object-fit:cover;object-position:50% 40%;border-radius:12px;display:block"><span><span class="h3" style="display:block">Kar és váll</span><span class="sm">11 000 Ft-tól</span></span></a>
+<a href="#kalkulator" onClick="{{zHat}}" style="display:flex;flex-direction:column;gap:12px;text-decoration:none;color:#3E4546"><img src="/_blob/79985597dac8af98b8cfad9a874631e5" alt="Sima bőrű női hát" class="zimg" style="width:100%;aspect-ratio:5/4;object-fit:cover;border-radius:12px;display:block"><span><span class="h3" style="display:block">Hát, has, derék</span><span class="sm">11 000 Ft-tól</span></span></a>
+</div>
+</section>
+
+<!-- Árkalkulátor -->
+<section id="kalkulator" class="secm" style="background:#fff;margin-top:72px">
+<div class="wrap secb" style="padding-top:88px;padding-bottom:88px;display:flex;flex-direction:column;gap:36px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<h2 class="d h2">Árkalkulátor</h2>
+<p class="txt mob-hide" style="max-width:560px">Válaszd ki, mely területeket kezelnéd egy alkalommal. A kedvezményt és a csomagárat automatikusan beszámoljuk.</p>
+</div>
+<div class="calc-wrap" style="display:flex;flex-wrap:wrap;gap:40px 64px;align-items:flex-start">
+
+<div style="flex:999 1 560px;min-width:0;display:flex;flex-direction:column;gap:16px">
+<h3 class="h3" style="font-size:17px">Legnépszerűbb területek</h3>
+<div style="display:flex;flex-wrap:wrap;gap:8px">
+<sc-for list="{{popular}}" as="a" hint-placeholder-count="8">
+<button class="chip cchip" onClick="{{a.pick}}" aria-pressed="{{a.selected}}" style="min-height:44px;padding:0 16px;border-radius:999px;border:1.5px solid {{a.border}};background:{{a.bg}};color:{{a.fg}};display:inline-flex;align-items:center;gap:8px;font-size:15px"><span>{{a.name}}</span><span style="opacity:.75">{{a.priceText}}</span></button>
+</sc-for>
+</div>
+<sc-if value="{{hasSel}}" hint-placeholder-val="{{false}}"><a class="mob-total" href="#osszesito" style="justify-content:space-between;align-items:center;gap:12px;background:#fff;color:#0F4B4E;border:1.5px solid #9FD6D6;border-radius:14px;padding:12px 16px;text-decoration:none"><span style="display:flex;flex-direction:column"><span class="sm" style="color:#5F6566">{{selCountText}}, egy alkalom</span><strong style="font-size:20px">{{totalText}}</strong></span><span style="font-weight:600;font-size:15px;text-decoration:underline;text-underline-offset:4px">Összesítő</span></a></sc-if>
+<button class="chip" onClick="{{toggleAll}}" aria-expanded="{{showAll}}" style="align-self:flex-start;background:transparent;border:0;color:#1C7A7D;font-weight:600;font-size:15px;min-height:44px;padding:0;text-decoration:underline;text-underline-offset:4px">{{allLabel}}</button>
+<sc-if value="{{showAll}}" hint-placeholder-val="{{false}}">
+<div style="display:flex;flex-direction:column;gap:14px">
+<div role="tablist" aria-label="Testrész" class="batabs" style="display:flex;flex-wrap:wrap;gap:4px 22px;border-bottom:1px solid #DCEFEE">
+<sc-for list="{{gtabs}}" as="g" hint-placeholder-count="5">
+<button class="tl" role="tab" aria-selected="{{g.selected}}" onClick="{{g.pick}}" style="color:{{g.fg}};border-bottom-color:{{g.line}};font-weight:{{g.weight}}">{{g.label}}</button>
+</sc-for>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:8px">
+<sc-for list="{{gitems}}" as="a" hint-placeholder-count="8">
+<button class="chip cchip" onClick="{{a.pick}}" aria-pressed="{{a.selected}}" style="min-height:44px;padding:0 16px;border-radius:999px;border:1.5px solid {{a.border}};background:{{a.bg}};color:{{a.fg}};display:inline-flex;align-items:center;gap:8px;font-size:15px"><span>{{a.name}}</span><span style="opacity:.75">{{a.priceText}}</span></button>
+</sc-for>
+</div>
+</div>
+</sc-if>
+<p class="sm mob-hide" style="color:#5F6566;margin-top:8px">Az árak alkalmankéntiek és egy testrészre vonatkoznak. Összevont területnél (például teljes láb) a részeit ne jelöld külön. Lézeres szőrtelenítés kizárólag hölgyeknek.</p>
+</div>
+
+<div id="osszesito" class="sumcol" style="flex:1 1 320px;min-width:0;display:flex;flex-direction:column;gap:14px;border-top:1px solid #BFE0DF;padding-top:18px">
+<sc-if value="{{noSel}}" hint-placeholder-val="{{true}}">
+<p class="txt mob-hide">Még nem választottál. A legtöbben ezekkel indulnak:</p>
+<div class="mob-hide" style="display:flex;flex-direction:column">
+<button class="chip" onClick="{{presetA}}" style="background:transparent;border:0;border-bottom:1px solid #DCEFEE;min-height:48px;padding:0;font-size:16px;color:#0F4B4E;display:flex;justify-content:space-between;align-items:center"><span>Hónalj + Bikinivonal</span><span style="font-weight:600">23 500 Ft</span></button>
+<button class="chip" onClick="{{presetB}}" style="background:transparent;border:0;border-bottom:1px solid #DCEFEE;min-height:48px;padding:0;font-size:16px;color:#0F4B4E;display:flex;justify-content:space-between;align-items:center"><span>Hónalj + Lábszár</span><span style="font-weight:600">43 500 Ft</span></button>
+<button class="chip" onClick="{{presetC}}" style="background:transparent;border:0;border-bottom:1px solid #DCEFEE;min-height:48px;padding:0;font-size:16px;color:#0F4B4E;display:flex;justify-content:space-between;align-items:center"><span>Hónalj + Teljes intim + Lábszár</span><span style="font-weight:600">64 500 Ft</span></button>
+</div>
+</sc-if>
+<sc-if value="{{hasSel}}" hint-placeholder-val="{{false}}">
+<ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column">
+<sc-for list="{{selList}}" as="x" hint-placeholder-count="2">
+<li class="srow" style="min-height:46px;border-bottom:1px solid #DCEFEE">
+<span>{{x.name}}</span>
+<span class="num">{{x.priceText}}</span>
+<button class="chip" onClick="{{x.remove}}" aria-label="{{x.removeLabel}}" style="justify-self:end;width:36px;height:44px;border:0;background:transparent;color:#5F6566;font-size:20px;line-height:1;display:flex;align-items:center;justify-content:flex-end;padding:0">×</button>
+</li>
+</sc-for>
+</ul>
+<div class="srow" style="font-size:15px;padding-top:4px"><span>Részösszeg</span><span class="num">{{subtotalText}}</span><span></span></div>
+<sc-if value="{{hasSaving}}" hint-placeholder-val="{{false}}"><div class="srow" style="color:#1C7A7D;font-weight:600;font-size:15px"><span>{{savingLabel}}</span><span class="num">−{{savingText}}</span><span></span></div></sc-if>
+<div class="tot srow" style="align-items:baseline;padding-top:10px;margin-top:2px;border-top:1px solid #DCEFEE"><span class="h3" style="font-size:16px">Egy alkalom</span><span class="d num" style="font-size:40px;line-height:1.1" aria-live="polite">{{totalText}}</span><span></span></div>
+<sc-if value="{{hasNudge}}" hint-placeholder-val="{{false}}"><p class="sm" style="color:#1C7A7D;font-weight:600">{{nudge}}</p></sc-if>
+<div class="srow" style="font-size:15px"><span>7+3 bérlettel, 10 alkalom</span><strong class="num" style="color:#0F4B4E">{{seriesText}}</strong><span></span></div>
+<button class="chip" onClick="{{clearSel}}" style="align-self:flex-start;background:transparent;border:0;color:#5F6566;text-decoration:underline;text-underline-offset:3px;min-height:40px;padding:0;font-size:14px">Mindet törlöm</button>
+</sc-if>
+<a class="bp" href="https://skin-vital.salonic.hu/" style="margin-top:6px">Időpontot foglalok</a>
+<p class="sm" style="color:#5F6566">Tájékoztató ár, alkalmanként és területenként. Általában 8-12 alkalom szükséges.</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- Technológia -->
+<section class="wrap sec" style="padding-top:104px;padding-bottom:24px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(460px,100%),1fr));gap:56px;align-items:center">
+<div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;min-width:0">
+<img src="/_blob/c1c9bfa07a088103a7eba5c2950627e3" alt="Az Elysion Pro kezelőfeje kezelés közben" style="width:100%;aspect-ratio:3/4.2;object-fit:cover;border-radius:16px;display:block">
+<img src="/_blob/87434bfc85b0dcaa90c64cda321b3286" alt="Az Elysion Pro diódalézer a szalonban" style="width:100%;aspect-ratio:3/4.2;object-fit:cover;border-radius:16px;display:block;margin-top:56px">
+</div>
+<div style="display:flex;flex-direction:column;gap:20px">
+<h2 class="d h2">Vége az örökös küzdelemnek a nem kívánt szőrszálakkal</h2>
+<p class="txt">Ahhoz, hogy mindig selymes bőröd legyen, 2-3 naponta borotválnod kell, a gyantázást, epilálást szinte 2 hetente ismételni. A bőröd irritált lesz, a szőrtüsző begyullad, szőrbenövés jelentkezik. Nem kell többé nyaralás, strand vagy randi előtt átmeneti megoldásokkal bajlódnod.</p>
+<p class="txt">Az Elysion-Pro kizárólag a szőrszálakat és a szőrtüszőket célozza, a környező szöveteket nem károsítja. A diódalézert a te bőr- és szőrtípusodhoz (fototípusodhoz) állítjuk be.</p>
+<dl style="margin:8px 0 0;display:grid;grid-template-columns:auto auto auto;justify-content:space-between;gap:16px;border-top:1px solid #BFE0DF;padding-top:20px">
+<div style="display:flex;flex-direction:column"><dt class="sm">Csúcsteljesítmény</dt><dd class="d" style="margin:auto 0 0;padding-top:4px;font-size:34px">2000 W</dd></div>
+<div style="display:flex;flex-direction:column"><dt class="sm">Kezelőfej</dt><dd class="d" style="margin:auto 0 0;padding-top:4px;font-size:34px">1×1 cm</dd></div>
+<div style="display:flex;flex-direction:column"><dt class="sm">Crystal Freeze hűtés</dt><dd class="d" style="margin:auto 0 0;padding-top:4px;font-size:34px">5 ℃</dd></div>
+</dl>
+</div>
+</section>
+
+<!-- Valódi eredmények -->
+<section class="wrap sec" style="padding-top:104px;padding-bottom:24px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(380px,100%),1fr));gap:40px 56px;align-items:center">
+<div style="display:flex;flex-direction:column;gap:18px">
+<h2 class="d h2">Valódi eredmények</h2>
+<p class="txt">Saját vendégeinkről készült előtte-utána képek. A hatás már az első kezelés után látványos.</p>
+<div role="tablist" aria-label="Terület" class="batabs" style="display:flex;flex-wrap:wrap;gap:0 22px;border-bottom:1px solid #BFE0DF">
+<sc-for list="{{baTabs}}" as="t" hint-placeholder-count="6">
+<button class="tl" role="tab" aria-selected="{{t.selected}}" onClick="{{t.pick}}" style="color:{{t.fg}};border-bottom-color:{{t.line}};font-weight:{{t.weight}}">{{t.label}}</button>
+</sc-for>
+</div>
+</div>
+<div style="min-width:0">
+<sc-if value="{{ba0}}" hint-placeholder-val="{{true}}"><img src="/_blob/8bb832cb8c4eebabc131f080ce4b3bd6" alt="Lábszár lézeres szőrtelenítés előtt és után" style="width:100%;aspect-ratio:4/3;object-fit:contain;display:block"></sc-if>
+<sc-if value="{{ba1}}" hint-placeholder-val="{{false}}"><img src="/_blob/305822d9fc7e2048bc82e209cd54ef4e" alt="Hónalj lézeres szőrtelenítés előtt és után" style="width:100%;aspect-ratio:4/3;object-fit:contain;display:block"></sc-if>
+<sc-if value="{{ba2}}" hint-placeholder-val="{{false}}"><img src="/_blob/515c3668571070cd0cf8e6d740091181" alt="Bikinivonal lézeres szőrtelenítés előtt és után" style="width:100%;aspect-ratio:4/3;object-fit:contain;display:block"></sc-if>
+<sc-if value="{{ba3}}" hint-placeholder-val="{{false}}"><img src="/_blob/1240b2272e4a6ac2560c3d8fe770182f" alt="Derék lézeres szőrtelenítés előtt és után" style="width:100%;aspect-ratio:4/3;object-fit:contain;display:block"></sc-if>
+<sc-if value="{{ba4}}" hint-placeholder-val="{{false}}"><img src="/_blob/0fa88df1e3db7bf4c89c066e85a87ffb" alt="Áll lézeres szőrtelenítés előtt és után" style="width:100%;aspect-ratio:4/3;object-fit:contain;display:block"></sc-if>
+<sc-if value="{{ba5}}" hint-placeholder-val="{{false}}"><img src="/_blob/13464083b8368e132519e069a9c48fe0" alt="Bajusz lézeres szőrtelenítés előtt és után" style="width:100%;aspect-ratio:4/3;object-fit:contain;display:block"></sc-if>
+</div>
+</section>
+
+<!-- Akciók -->
+<section id="akciok" class="secm" style="background:#fff;margin-top:72px">
+<div class="wrap secb" style="padding-top:64px;padding-bottom:64px;display:flex;flex-direction:column;gap:36px">
+<h2 class="d h2" style="color:#0F4B4E">Bérletakció és csomagok</h2>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(440px,100%),1fr));gap:40px 72px;align-items:start">
+<div style="display:flex;flex-direction:column;gap:36px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<div style="display:flex;align-items:center;gap:18px"><span class="d" style="font-size:56px;line-height:1;color:#1C7A7D;flex:none">7+3</span>
+<p class="txt" style="color:#3E4546">alkalmas bérlet lézeres szőrtelenítésre, részletfizetési lehetőséggel.</p></div>
+<a class="bp" href="https://skin-vital.salonic.hu/" style="align-self:flex-start">Bérletet kérek</a>
+</div>
+<div>
+<h3 class="h3" style="color:#0F4B4E;padding-bottom:4px;border-bottom:1px solid #BFE0DF">Több terület egy alkalommal</h3>
+<dl class="akc" style="margin:0">
+<div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:12px 0;border-bottom:1px solid #DCEFEE"><dt style="font-size:16px;color:#3E4546">2 terület</dt><dd style="margin:0;font-size:17px;font-weight:600;color:#0F4B4E">10% kedvezmény</dd></div>
+<div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:12px 0;border-bottom:1px solid #DCEFEE"><dt style="font-size:16px;color:#3E4546">3 terület</dt><dd style="margin:0;font-size:17px;font-weight:600;color:#0F4B4E">20% kedvezmény</dd></div>
+<div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:12px 0;border-bottom:1px solid #DCEFEE"><dt style="font-size:16px;color:#3E4546">4 vagy több terület</dt><dd style="margin:0;font-size:17px;font-weight:700;color:#1C7A7D">30% kedvezmény</dd></div>
+</dl>
+</div>
+</div>
+<div>
+<h3 class="h3" style="color:#0F4B4E;padding-bottom:4px;border-bottom:1px solid #BFE0DF">Csomagajánlatok</h3>
+<ul style="margin:0;padding:0;list-style:none">
+<sc-for list="{{packs}}" as="k" hint-placeholder-count="7">
+<li style="border-bottom:1px solid #DCEFEE"><a href="#kalkulator" onClick="{{k.pick}}" style="padding:12px 0;display:flex;justify-content:space-between;gap:12px;align-items:baseline;color:#3E4546;font-size:16px;text-decoration:none"><span>{{k.name}}</span><span style="white-space:nowrap;display:flex;align-items:baseline;gap:12px"><span style="font-size:13px;color:#1C7A7D;font-weight:600;background:#E3F4F3;border-radius:999px;padding:2px 8px">{{k.save}}</span><strong style="font-size:17px;color:#0F4B4E;font-weight:600;min-width:84px;text-align:right">{{k.price}}</strong></span></a></li>
+</sc-for>
+</ul>
+</div>
+</div>
+</div>
+</section>
+
+<!-- HIFU -->
+<section id="hifu" class="secm" style="background:#fff;margin-top:0 !important">
+<div class="wrap"><div style="border-top:1px solid #DCEFEE"></div></div>
+<div class="wrap secb" style="padding-top:88px;padding-bottom:56px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(440px,100%),1fr));gap:56px 72px;align-items:center">
+<div style="position:relative;min-width:0;margin-bottom:24px">
+<img class="hifu-main" src="/_blob/022fff48f2b89299d86f67d43e5a5691" alt="Feszes, ápolt nyak és arcvonal" style="width:100%;aspect-ratio:4/4.6;object-fit:cover;border-radius:16px;display:block">
+<img class="hifu-dev" src="/_blob/52a44022c54f3844874dba349e4f0e96" alt="Microson Pen HIFU készülék a szalonban" style="position:absolute;right:-12px;bottom:-28px;width:48%;aspect-ratio:4/3;object-fit:cover;border-radius:14px;border:6px solid #fff;background:#fff;box-shadow:0 20px 44px rgba(15,75,78,.18)">
+</div>
+<div style="display:flex;flex-direction:column;gap:20px;min-width:0">
+<span style="align-self:flex-start;background:#FBE7EB;color:#7A2843;font-weight:600;font-size:14px;padding:6px 14px;border-radius:999px">Akció: teljes arc + toka 89 000 Ft</span>
+<h2 class="d h2">HIFU arcfeszesítés Microson Pennel</h2>
+<p class="lead">Egyedülálló ultrahang technológia, amely a bőr mélyére hatolva serkenti a kollagéntermelést. Kíméletes, mégis hatékony: azonnali feszesítést eredményez, és hosszú távú fiatalító hatást nyújt.</p>
+<dl class="hdl" style="margin:4px 0 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;border-top:1px solid #DCEFEE;padding-top:18px">
+<div><dt class="sm">3 mélységben</dt><dd class="d" style="margin:4px 0 0;font-size:24px;white-space:nowrap">1,5 / 3 / 4,5 mm</dd></div>
+<div><dt class="sm">Hatás</dt><dd class="d" style="margin:4px 0 0;font-size:24px">Azonnali</dd></div>
+<div><dt class="sm">Kezelés</dt><dd class="d" style="margin:4px 0 0;font-size:24px">1,5–2,5 óra</dd></div>
+</dl>
+<ul style="margin:0;padding:0;list-style:none;border-top:1px solid #DCEFEE">
+<li class="srow" style="grid-template-columns:minmax(0,1fr) auto;min-height:48px;border-bottom:1px solid #DCEFEE"><span><strong style="color:#0F4B4E">Teljes arc + toka</strong> <span style="font-size:13px;font-weight:600;color:#8E3550;margin-left:6px">Akciós</span></span><span class="num"><s style="color:#6B6F70;font-size:14px;margin-right:10px">125 000 Ft</s><strong style="color:#0F4B4E">89 000 Ft</strong></span></li>
+<li class="srow" style="grid-template-columns:minmax(0,1fr) auto;min-height:48px;border-bottom:1px solid #DCEFEE"><span>Teljes arc</span><span class="num">110 000 Ft</span></li>
+<li class="srow" style="grid-template-columns:minmax(0,1fr) auto;min-height:48px;border-bottom:1px solid #DCEFEE"><span>Nyak + dekoltázs</span><span class="num">80 000 Ft</span></li>
+<li class="srow" style="grid-template-columns:minmax(0,1fr) auto;min-height:48px;border-bottom:1px solid #DCEFEE"><span>Teljes arc + toka + nyak + dekoltázs</span><span class="num">150 000 Ft</span></li>
+</ul>
+<div style="display:flex;flex-wrap:wrap;gap:12px 28px;align-items:center;margin-top:4px">
+<a class="bp" href="https://skin-vital.salonic.hu/selectEmployee/?placeId=3555&amp;serviceId=163872">HIFU kezelést foglalok</a>
+<a class="bs" href="https://skin-vital.salonic.hu/selectEmployee/?placeId=3555&amp;serviceId=163676">HIFU konzultációt kérek</a>
+</div>
+</div>
+</div>
+<div class="wrap hmore" style="padding-bottom:88px">
+<button class="chip" onClick="{{toggleHifu}}" aria-expanded="{{hifuMore}}" style="width:100%;background:transparent;border:0;border-top:1px solid #DCEFEE;border-bottom:1px solid #DCEFEE;min-height:64px;padding:16px 0;display:flex;justify-content:space-between;align-items:center;gap:16px;color:#0F4B4E;font-size:18px;font-weight:600;text-align:left">
+<span>Mikor javasolt, mire számíthatsz, ellenjavallatok</span>
+<span aria-hidden="true" style="flex:none;font-size:26px;font-weight:400;line-height:1;color:#8E3550">{{hifuSign}}</span>
+</button>
+<sc-if value="{{hifuMore}}" hint-placeholder-val="{{false}}">
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr));gap:32px 56px;padding:28px 0 8px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<h3 class="h3" style="color:#0F4B4E">Mikor javasolt?</h3>
+<ul class="txt" style="margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px">
+<li>Megereszkedett bőr tömörítésére, megemelésére</li>
+<li>Ráncok, szem- és szájkörnyéki ráncok csökkentésére</li>
+<li>Szemöldök emelésére</li>
+<li>Állvonal kontúrozására</li>
+<li>Toka, nyak és dekoltázs feszesítésére</li>
+<li>Megelőzésképpen már 30 éves kortól</li>
+</ul>
+<p class="txt">Ha szeretnéd elkerülni a sebészeti és invazív beavatkozásokat, és non-invazív, fájdalommentes megoldást választanál.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px">
+<h3 class="h3" style="color:#0F4B4E">Mire számíthatsz?</h3>
+<p class="txt">Legtöbbször már a kezelés után látható az eredmény: feszesebb bőr, halványabb ráncok. A végleges hatás 2-4 hónap alatt teljesedik ki, amíg felépülnek az új kollagén- és elasztinrostok, és kb. egy évig tart. A kezelés 6-9 hónap után ismételhető.</p>
+<p class="txt">A hagyományos HIFU pontsorozatokat lő, a Microson Pen egyetlen, folyamatosan mozgatható ponttal dolgozik. Így a szem- és szájkörnyék, az orr-ajak barázda és az állvonal is precízen kezelhető, a beépített hőérzékelőnek köszönhetően biztonságosan és fájdalommentesen.</p>
+<p class="sm">A változás mértéke az egyéni anatómiától, a bőrállapottól és az életmódtól függ. Sokat számít a megfelelő folyadékfogyasztás, az otthoni ápolás és az elég alvás.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px">
+<h3 class="h3" style="color:#0F4B4E">Ellenjavallatok</h3>
+<ul class="sm" style="margin:0;padding-left:20px;display:flex;flex-direction:column;gap:4px;line-height:1.55">
+<li>Sérült bőrfelület, herpesz</li>
+<li>Várandósság, szoptatás</li>
+<li>Rosszindulatú daganatok</li>
+<li>Epilepszia, pacemaker</li>
+<li>Kezeletlen szív- és érrendszeri betegség</li>
+<li>Kezeletlen és 2-es típusú diabétesz</li>
+<li>Véralvadásgátló szedése, autoimmun betegség</li>
+<li>Lázas megbetegedés, keloidképződésre való hajlam</li>
+<li>Esztétikai töltés, szálbehúzás után 6 hónapig</li>
+<li>Antibiotikum, szteroid szedése után 2 hétig</li>
+</ul>
+<p class="txt" style="font-weight:600;color:#0F4B4E">Minden HIFU kezelést személyes konzultáció előz meg.</p>
+</div>
+</div>
+</sc-if>
+</div>
+</section>
+
+<!-- Arckezelések -->
+<section id="arckezelesek" class="wrap sec" style="padding-top:96px;padding-bottom:24px;display:flex;flex-direction:column;gap:0">
+<div style="display:flex;flex-direction:column;gap:12px;padding-bottom:24px">
+<h2 class="d h2">Arckezelések a ragyogó bőrért</h2>
+<p class="txt" style="max-width:560px">Tisztítás, fiatalítás, feszesítés és érzékeny bőr kezelése, prémium gépekkel és kozmetikumokkal.</p>
+</div>
+<div class="svc-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(460px,100%),1fr));gap:0 48px;border-top:1px solid #BFE0DF">
+<a class="svc-row" href="https://skin-vital.salonic.hu/services" style="display:grid;grid-template-columns:88px minmax(0,1fr);gap:2px 18px;align-items:start;padding:14px 0;border-bottom:1px solid #DCEFEE;text-decoration:none;color:#3E4546">
+<img class="svc-thumb" src="/_blob/bee951dec74a1d371b3e7b5eaddad091" alt="HYDROcare H2O arctisztító gép" style="width:88px;grid-row:span 2;aspect-ratio:1/1;object-fit:cover;object-position:50% 50%;border-radius:10px;display:block;background:#fff">
+<span class="d svc-t" style="font-size:22px;line-height:1.2">HYDROcare H2O</span>
+<span class="sm svc-d" style="font-size:15px;line-height:1.5">Nyomkodásmentes, fájdalommentes gépi tisztítás, a bőrtípusodhoz igazított hatóanyagos táplálással. <strong style="color:#0F4B4E;white-space:nowrap">25 000 Ft-tól</strong></span>
+</a>
+<a class="svc-row" href="https://skin-vital.salonic.hu/services" style="display:grid;grid-template-columns:88px minmax(0,1fr);gap:2px 18px;align-items:start;padding:14px 0;border-bottom:1px solid #DCEFEE;text-decoration:none;color:#3E4546">
+<img class="svc-thumb" src="/_blob/390261d85d490478d3e28a0dbf99adb0" alt="Gépi arckezelés" style="width:88px;grid-row:span 2;aspect-ratio:1/1;object-fit:cover;object-position:50% 50%;border-radius:10px;display:block;background:#fff">
+<span class="d svc-t" style="font-size:22px;line-height:1.2">Oxy Bubble</span>
+<span class="sm svc-d" style="font-size:15px;line-height:1.5">Glass Skin Effect: 3 az 1-ben kezelés, oxigénnel dúsít, gyengéden hámlaszt és hatóanyagokkal táplál. <strong style="color:#0F4B4E;white-space:nowrap">19 900 Ft-tól</strong></span>
+</a>
+<a class="svc-row" href="https://skin-vital.salonic.hu/services" style="display:grid;grid-template-columns:88px minmax(0,1fr);gap:2px 18px;align-items:start;padding:14px 0;border-bottom:1px solid #DCEFEE;text-decoration:none;color:#3E4546">
+<img class="svc-thumb" src="/_blob/5aebc107f7009b22addb870da485fe9c" alt="Arckezelés a kozmetikus kezében" style="width:88px;grid-row:span 2;aspect-ratio:1/1;object-fit:cover;object-position:50% 50%;border-radius:10px;display:block;background:#fff">
+<span class="d svc-t" style="font-size:22px;line-height:1.2">Koreai fiatalítás</span>
+<span class="sm svc-d" style="font-size:15px;line-height:1.5">KRX Aesthetic kollagén szálak, peptidek és mélyhidratálás, tű nélküli mezoterápiával. <strong style="color:#0F4B4E;white-space:nowrap">24 500 Ft-tól</strong></span>
+</a>
+<a class="svc-row" href="https://skin-vital.salonic.hu/services" style="display:grid;grid-template-columns:88px minmax(0,1fr);gap:2px 18px;align-items:start;padding:14px 0;border-bottom:1px solid #DCEFEE;text-decoration:none;color:#3E4546">
+<img class="svc-thumb" src="/_blob/60e9a2d0c6bac61635282e17537db32e" alt="MILSYS lézeres mezoterápia kezelés" style="width:88px;grid-row:span 2;aspect-ratio:1/1;object-fit:cover;object-position:50% 50%;border-radius:10px;display:block;background:#fff">
+<span class="d svc-t" style="font-size:22px;line-height:1.2">MILSYS® mezoterápia</span>
+<span class="sm svc-d" style="font-size:15px;line-height:1.5">Lézeres anti-aging kezelések, azonnal ragyogó és látványos eredménnyel. <strong style="color:#0F4B4E;white-space:nowrap">20 500 Ft-tól</strong></span>
+</a>
+<a class="svc-row" href="https://skin-vital.salonic.hu/services" style="display:grid;grid-template-columns:88px minmax(0,1fr);gap:2px 18px;align-items:start;padding:14px 0;border-bottom:1px solid #DCEFEE;text-decoration:none;color:#3E4546">
+<img class="svc-thumb" src="/_blob/a6480668edefd7c7c10b0cb84bc8c4e8" alt="Mosolygó nő ragyogó bőrrel" style="width:88px;grid-row:span 2;aspect-ratio:1/1;object-fit:cover;object-position:50% 30%;border-radius:10px;display:block;background:#fff">
+<span class="d svc-t" style="font-size:22px;line-height:1.2">Bőrmegújítás</span>
+<span class="sm svc-d" style="font-size:15px;line-height:1.5">Carbon peeling, BioHerb50 és Korea Peel a szebb bőrtónusért, kisebb pórusokért, halványabb aknényomokért. <strong style="color:#0F4B4E;white-space:nowrap">19 900 Ft-tól</strong></span>
+</a>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:24px;padding-top:96px">
+<h2 class="d h2">Teljes árlista</h2>
+<div role="tablist" aria-label="Árlista kategóriák" class="batabs" style="display:flex;flex-wrap:wrap;gap:0 24px;border-bottom:1px solid #BFE0DF">
+<sc-for list="{{ptabs}}" as="t" hint-placeholder-count="5">
+<button class="tl" role="tab" aria-selected="{{t.selected}}" onClick="{{t.pick}}" style="color:{{t.fg}};border-bottom-color:{{t.line}};font-weight:{{t.weight}}">{{t.label}}</button>
+</sc-for>
+</div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(440px,100%),1fr));gap:12px 56px;align-items:start">
+<sc-for list="{{groups}}" as="grp" hint-placeholder-count="2">
+<div style="display:flex;flex-direction:column;min-width:0">
+<h4 style="margin:8px 0 6px;font-size:16px;font-weight:600;color:#8E3550">{{grp.title}}</h4>
+<ul style="margin:0;padding:0;list-style:none">
+<sc-for list="{{grp.rows}}" as="r" hint-placeholder-count="4">
+<li class="pl-row" style="display:flex;justify-content:space-between;align-items:flex-start;gap:16px;padding:11px 0;border-top:1px solid #D3EBEA;line-height:1.4">
+<span style="display:flex;flex-direction:column;gap:2px"><span>{{r.n}}<sc-if value="{{r.hasTag}}" hint-placeholder-val="{{false}}"><span style="margin-left:8px;font-size:12px;font-weight:600;color:{{r.tagFg}};white-space:nowrap">{{r.t}}</span></sc-if></span><span style="font-size:13px;color:#5F6566">{{r.d}}</span></span>
+<span style="display:flex;align-items:center;gap:14px;flex:none"><span style="font-weight:600;color:#0F4B4E;white-space:nowrap">{{r.p}}</span><a class="row-book" href="https://skin-vital.salonic.hu/services" aria-label="{{r.bookLabel}}" style="display:inline-flex;align-items:center;min-height:36px;padding:0 14px;border-radius:999px;border:1.5px solid #9FD6D6;color:#0F4B4E;font-size:14px;font-weight:600;text-decoration:none">Foglalás</a></span>
+</li>
+</sc-for>
+</ul>
+</div>
+</sc-for>
+</div>
+<a class="bp" href="https://skin-vital.salonic.hu/services" style="align-self:flex-start;margin-top:8px">Kezelést választok</a>
+</div>
+</section>
+
+<!-- Rólunk -->
+<section id="rolunk" class="wrap sec" style="padding-top:120px;padding-bottom:24px;display:flex;flex-direction:column;gap:64px">
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(460px,100%),1fr));gap:56px;align-items:center">
+<img src="/_blob/214c9c27aa7e7ec490980f4a0b603559" alt="Lézeres szőrtelenítés a Skin Vital szalon kezelőjében" style="width:100%;aspect-ratio:4/4.4;object-fit:cover;object-position:50% 40%;border-radius:16px;display:block">
+<div style="display:flex;flex-direction:column;gap:20px">
+<h2 class="d h2">Egy vendég, egy időpont</h2>
+<p class="lead">Kizárólag a legkorszerűbb, legbiztonságosabb és leghatékonyabb eljárásokat alkalmazzuk. Kellemes környezet, figyelmes és diszkrét kiszolgálás vár: a kezelés alatt csak rád figyelünk, más vendéggel nem találkozol.</p>
+<p class="txt">Személyre szabott kezelések, prémium gépek és kozmetikumok. Ha bizonytalan vagy, gyere el egy ingyenes konzultációra és próbakezelésre kis területen.</p>
+</div>
+</div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(440px,100%),1fr));gap:40px 56px;border-top:1px solid #BFE0DF;padding-top:48px">
+<div style="display:flex;flex-wrap:wrap;gap:24px;align-items:flex-start">
+<img src="/_blob/64641d501f61ea79cdb97405652eb40e" alt="Ágoston Brigitta" width="160" height="160" style="flex:none;width:160px;height:160px;border-radius:50%;object-fit:cover;display:block">
+<div style="flex:1 1 220px;display:flex;flex-direction:column;gap:6px;min-width:0">
+<h3 class="d" style="margin:0;font-size:32px;line-height:1.1">Ágoston Brigitta</h3>
+<p class="sm" style="font-size:15px">Kozmetikus, lézer specialista</p>
+<p style="margin:0;font-size:15px"><span aria-hidden="true" style="color:#C9A04E;letter-spacing:2px">★★★★★</span> <strong style="color:#0F4B4E">5,0</strong>, 180 vélemény</p>
+<p class="sm">Lézeres szőrtelenítés, koreai fiatalító és tisztító arckezelések, HIFU, lézeres mezoterápia, szempilla lifting</p>
+<a class="bs" href="https://skin-vital.salonic.hu/employees" style="align-self:flex-start;min-height:44px;font-size:15px">Hozzá foglalok</a>
+</div>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:24px;align-items:flex-start">
+<img src="/_blob/8c8c4a1e14481043f5e84493ccb4e05c" alt="Heininger Zsófia" width="160" height="160" style="flex:none;width:160px;height:160px;border-radius:50%;object-fit:cover;display:block">
+<div style="flex:1 1 220px;display:flex;flex-direction:column;gap:6px;min-width:0">
+<h3 class="d" style="margin:0;font-size:32px;line-height:1.1">Heininger Zsófia</h3>
+<p class="sm" style="font-size:15px">Kozmetikus, lézer specialista</p>
+<p style="margin:0;font-size:15px"><span aria-hidden="true" style="color:#C9A04E;letter-spacing:2px">★★★★★</span> <strong style="color:#0F4B4E">5,0</strong>, 148 vélemény</p>
+<p class="sm">Lézeres szőrtelenítés, mikrotűs epiláció, koreai fiatalító és tisztító arckezelések, HIFU, érzékeny bőr kezelése</p>
+<a class="bs" href="https://skin-vital.salonic.hu/employees" style="align-self:flex-start;min-height:44px;font-size:15px">Hozzá foglalok</a>
+</div>
+</div>
+</div>
+</section>
+
+<!-- GYIK -->
+<section id="gyik" class="wrap sec" style="padding-top:104px;padding-bottom:24px;display:flex;flex-wrap:wrap;gap:48px">
+<div style="flex:1 1 380px;display:flex;flex-direction:column;gap:20px;min-width:0">
+<h2 class="d h2">Amit a kezelés előtt tudni érdemes</h2>
+<p class="txt">További kérdés? Hívj bizalommal: <a href="tel:+36206178951" style="font-weight:600;white-space:nowrap">+36 20 617 8951</a></p>
+</div>
+<div style="flex:999 1 560px;min-width:0;display:flex;flex-direction:column;border-top:1px solid #BFE0DF">
+<sc-for list="{{faq}}" as="f" hint-placeholder-count="9">
+<div style="border-bottom:1px solid #BFE0DF">
+<button class="chip" onClick="{{f.toggle}}" aria-expanded="{{f.open}}" style="width:100%;background:transparent;border:0;min-height:64px;padding:16px 0;display:flex;justify-content:space-between;align-items:center;gap:16px;color:#0F4B4E;font-size:18px;font-weight:600">
+<span>{{f.q}}</span>
+<span aria-hidden="true" style="flex:none;font-size:26px;font-weight:400;line-height:1;color:#8E3550">{{f.sign}}</span>
+</button>
+<sc-if value="{{f.open}}" hint-placeholder-val="{{false}}">
+<div style="padding:0 0 22px;display:flex;flex-direction:column;gap:10px">
+<sc-for list="{{f.paras}}" as="p" hint-placeholder-count="1"><p class="txt">{{p.text}}</p></sc-for>
+<sc-if value="{{f.hasList}}" hint-placeholder-val="{{false}}">
+<ul style="margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px;line-height:1.6;max-width:62ch">
+<sc-for list="{{f.items}}" as="i" hint-placeholder-count="3"><li>{{i.text}}</li></sc-for>
+</ul>
+</sc-if>
+</div>
+</sc-if>
+</div>
+</sc-for>
+</div>
+</section>
+
+<!-- Kapcsolat -->
+<section id="kapcsolat" class="secm" style="background:#0F4B4E;color:#fff;margin-top:120px;position:relative;overflow:hidden">
+<div class="wrap secb" style="position:relative;padding-top:96px;padding-bottom:96px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(400px,100%),1fr));gap:48px">
+<div style="display:flex;flex-direction:column;gap:20px">
+<h2 class="d h2" style="color:#fff">Foglalj időpontot pár kattintással</h2>
+<p class="lead" style="color:#D8F3F2">Válassz szabad időpontot az online naptárban, vagy kérj ingyenes konzultációt és próbakezelést kis területen.</p>
+<div style="display:flex;flex-wrap:wrap;gap:12px 28px;align-items:center">
+<a class="bp" href="https://skin-vital.salonic.hu/" style="background:#F4C9D2;color:#0F4B4E">Időpontot foglalok</a>
+</div>
+</div>
+<dl class="kdl" style="margin:0;display:grid;grid-template-columns:auto 1fr;gap:16px 24px;font-size:17px;line-height:1.5;align-content:start;align-items:baseline">
+<dt style="color:#F4C9D2;font-weight:600">Cím</dt><dd style="margin:0">1191 Budapest, Toldy u. 19. 2/6.<br>6-os kapucsengő<br><a href="https://maps.app.goo.gl/n5dcDMH4pwyh548D8" style="color:#F3DFA8;font-weight:600;display:inline-block;margin-top:6px">Útvonal a térképen</a></dd>
+<dt style="color:#F4C9D2;font-weight:600">Telefon</dt><dd style="margin:0"><a href="tel:+36206178951" style="color:#fff;font-weight:600">+36 20 617 8951</a></dd>
+<dt style="color:#F4C9D2;font-weight:600">E-mail</dt><dd style="margin:0"><a href="mailto:skinvital.kozmetika@gmail.com" style="color:#fff;overflow-wrap:anywhere">skinvital.kozmetika@gmail.com</a></dd>
+</dl>
+</div>
+</section>
+
+<footer style="background:#0B3E41;color:#D8F3F2">
+<div class="wrap" style="padding-top:22px;padding-bottom:22px;display:flex;flex-wrap:wrap;gap:8px 32px;justify-content:space-between;align-items:center;font-size:15px">
+<span>© 2026 Skin Vital Lézer Stúdió és Kozmetika</span>
+<span style="display:flex;flex-wrap:wrap;gap:4px 22px"><a href="https://www.lezeresszortelenitesbudapest.hu/hazirend" style="padding:8px 0;color:#D8F3F2">Házirend</a><a href="https://www.lezeresszortelenitesbudapest.hu/blog" style="padding:8px 0;color:#D8F3F2">Blog</a><a href="https://skin-vital.salonic.hu/" style="padding:8px 0;color:#D8F3F2">Foglalási szabályzat</a></span>
+</div>
+</footer>
+
+</div>
+</x-dc>
+
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":10400}}'>
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = { sel: {}, ptab: 'akcio', faq: (typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(max-width:760px)').matches) ? -1 : 0, ba: 0, showAll: false, grp: 0, menu: false, hifuMore: false };
+  }
+  renderVals() {
+    const st = this.state;
+    const fmt = (n) => String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g, ' ') + ' Ft';
+    const AG = [
+      ['Hónalj és kar', [['honalj','Hónalj',15000],['alkar','Alkar',23000],['felkar','Felkar',23000],['teljeskar','Teljes kar',40000],['vallak','Vállak',23000],['kezujjak','Kézujjak',11000],['kezfejek','Kézfejek',11000],['kezujjfej','Kézujjak + kézfejek',16000]]],
+      ['Láb', [['labszar','Lábszárak',40000],['combok','Combok',40000],['combhatso','Combok hátsó része',20000],['combbelso','Combok belső része',15000],['terd','Térd',18000],['teljeslab','Teljes láb',72000],['labujjak','Lábujjak',11000],['labfejek','Lábfejek',11000],['labujjfej','Lábujjak + lábfejek',16000]]],
+      ['Intim', [['bikini','Bikinivonal',15000],['intim','Teljes intim',32000],['popsibelso','Popsi belső ív',15000],['popsikulso','Popsi külső rész',23000]]],
+      ['Arc és nyak', [['all','Áll',11000],['allnyak','Áll + nyak rész',13500],['bajusz','Bajusz',11000],['pajesz','Pajesz',11000],['orca','Orca',11000],['teljesarc','Teljes arc',32000],['arcnyak','Teljes arc + nyak elöl',36000],['nyakelol','Nyak elöl',15000],['nyakhatul','Nyak hátul',15000],['hajkontur','Hajkontúr (tarkó rész)',15000]]],
+      ['Hát, has, derék', [['hat','Hát',40000],['has','Has',32000],['hascsikS','Hascsík „S” (köldök alatti sáv)',11000],['hascsikM','Hascsík „M” (széles sáv)',15000],['derekS','Derék „S”',15000],['derekM','Derék „M”',20000],['mellbimbo','Mellbimbó körül',15000],['mellekkozott','Mellek közötti rész',15000]]]
+    ];
+    const byId = {};
+    AG.forEach((g) => g[1].forEach((a) => { byId[a[0]] = a; }));
+    const PK = [
+      [['honalj','bikini'],23500],[['honalj','labszar'],43500],[['bikini','labszar'],43500],[['honalj','intim'],37000],
+      [['honalj','bikini','labszar'],54500],[['intim','labszar'],55500],[['honalj','intim','labszar'],64500]
+    ];
+    const setSel = (ids) => { const s = {}; ids.forEach((i) => { s[i] = true; }); this.setState({ sel: s }); };
+    const toggle = (id) => { const s = Object.assign({}, this.state.sel); if (s[id]) delete s[id]; else s[id] = true; this.setState({ sel: s }); };
+    const add = (id) => () => { const s = Object.assign({}, this.state.sel); s[id] = true; this.setState({ sel: s }); };
+    const ids = Object.keys(st.sel).filter((k) => st.sel[k] && byId[k]);
+    const n = ids.length;
+    const sub = ids.reduce((t, k) => t + byId[k][2], 0);
+    const key = ids.slice().sort().join('|');
+    const pack = PK.find((p) => p[0].slice().sort().join('|') === key);
+    const rate = n >= 4 ? 0.3 : n === 3 ? 0.2 : n === 2 ? 0.1 : 0;
+    let total = sub * (1 - rate), savingLabel = rate ? Math.round(rate * 100) + '% kedvezmény (' + n + ' terület)' : '';
+    if (pack && pack[1] < total) { total = pack[1]; savingLabel = 'Csomagár'; }
+    const saving = sub - total;
+    let nudge = '';
+    if (n === 1) nudge = 'Még egy terület, és 10% kedvezményt kapsz a végösszegből.';
+    else if (n === 2 && !pack) nudge = 'Még egy terület, és 20%-ra nő a kedvezményed.';
+    else if (n === 3 && !pack) nudge = 'Még egy terület, és 30% kedvezményt kapsz.';
+    const chip = (a) => { const on = !!st.sel[a[0]]; return { name: a[1], priceText: fmt(a[2]), selected: on, bg: on ? '#DDF3F2' : '#fff', fg: on ? '#0F4B4E' : '#3E4546', border: on ? '#1C7A7D' : '#BFE3E3', pick: () => toggle(a[0]) }; };
+    const popular = ['honalj','labszar','bikini','intim','teljeslab','bajusz','all','alkar'].map((i) => chip(byId[i]));
+    const tabStyle = (on) => ({ fg: on ? '#0F4B4E' : '#5F6566', line: on ? '#0F4B4E' : 'transparent', weight: on ? 600 : 500 });
+    const gtabs = AG.map((g, i) => { const on = st.grp === i; const c = g[1].filter((a) => st.sel[a[0]]).length; return Object.assign({ label: g[0] + (c ? ' (' + c + ')' : ''), selected: on, pick: () => this.setState({ grp: i }) }, tabStyle(on)); });
+    const gitems = AG[st.grp][1].map(chip);
+    const total39 = AG.reduce((t, g) => t + g[1].length, 0);
+    const selList = ids.map((k) => ({ name: byId[k][1], priceText: fmt(byId[k][2]), removeLabel: byId[k][1] + ' eltávolítása', remove: () => toggle(k) }));
+    const packs = PK.map((p) => ({ name: p[0].map((i) => byId[i][1].replace('Lábszárak', 'Lábszár')).join(' + '), price: fmt(p[1]), was: fmt(p[0].reduce((t, i) => t + byId[i][2], 0)), save: (() => { const w = p[0].reduce((t, i) => t + byId[i][2], 0); return '−' + Math.round((1 - p[1] / w) * 100) + '%'; })(), pick: () => setSel(p[0]) }));
+    const PT = [['akcio','Akciók és újdonságok'],['tisztito','Tisztító és bőrmegújító'],['fiatalito','Koreai és MILSYS'],['hifu','HIFU'],['egyeb','Érzékeny bőr, relax, szempilla']];
+    const ptabs = PT.map((t) => { const on = st.ptab === t[0]; return Object.assign({ label: t[1], selected: on, pick: () => this.setState({ ptab: t[0] }) }, tabStyle(on)); });
+    const R = (nm, p, d, t) => { const tg = { 'Új': '#1C7A7D', 'Akciós': '#8E3550', 'Legnépszerűbb': '#7A5E16' }[t] || '#000'; return { n: nm, p, d: d || '', t: t || '', hasTag: !!t, tagFg: tg, bookLabel: nm + ' foglalása' }; };
+    const G = {
+      akcio: [
+        { title: 'Akciós arckezelések', rows: [R('Teljes arc + toka HIFU','89 000 Ft','1 óra 30 perc','Akciós'),R('MILSYS® Pure peptides V.I.P.','29 500 Ft','1 óra 30 perc','Akciós'),R('Korea Peel, savmentes bőrmegújítás','29 000 Ft','1 óra','Új'),R('ZE-TOX, botox hatás méreganyagok nélkül','29 000 Ft','1 óra','Új'),R('Oxy Bubble, Glass Skin Effect','19 900 Ft','1 óra','Új'),R('Oxy Bubble + rádiófrekvenciás feszesítés','24 900 Ft','1 óra','Új')] },
+        { title: 'Ingyenes és konzultáció', rows: [R('Ingyenes konzultáció, lézeres szőrtelenítés','Ingyenes','30 perc'),R('Ingyenes konzultáció + próbakezelés kis területen','Ingyenes','30 perc'),R('Hifu, Microson Pen konzultáció','Konzultáció','45 perc'),R('Green Sea Peel konzultáció','Konzultáció','30 perc'),R('Arckezelés konzultáció','Konzultáció','30 perc')] }
+      ],
+      tisztito: [
+        { title: 'Tisztító arckezelések', rows: [R('Gépi tisztító kezelés + Carbon peeling','35 000 Ft','1 óra 30 perc','Legnépszerűbb'),R('Gépi tisztító kezelés, Hydro Care H2O','25 000 Ft','1 óra'),R('Gépi tisztító kezelés masszázzsal','26 500 Ft','1 óra 30 perc'),R('Gépi tisztítás tű nélküli mezoterápiával','28 000 Ft','1 óra 30 perc'),R('Gépi + manuális tisztítás','27 000 Ft','2 óra'),R('Gépi + manuális tisztítás, tű nélküli mezoterápiával','30 000 Ft','2 óra'),R('Hagyományos manuális tisztító kezelés','25 000 Ft','1 óra 30 perc'),R('Hát tisztító kezelése','28 000 Ft','2 óra'),R('Carbon peeling bármelyik kezelésbe beépítve','10 000 Ft','20 perc')] },
+        { title: 'Bőrmegújító kezelések', rows: [R('BioHerb50 szivacstűs bőrmegújítás','19 900 Ft','45 perc','Új'),R('Carbon Peeling','21 500 Ft','1 óra'),R('Carbon Peeling Plus (ultrahang + masszázs)','27 500 Ft','1 óra 30 perc'),R('Korea Peel, savmentes bőrmegújítás','29 000 Ft','1 óra','Új')] }
+      ],
+      fiatalito: [
+        { title: 'Koreai fiatalító arckezelések (KRX)', rows: [R('„Amire a bőrömnek szüksége van”','24 500 Ft-tól','1 óra 30 perc'),R('V-TOX + Carboxy + Boto-RX Booster + kollagénszál','32 000 Ft','1 óra 30 perc','Új'),R('V-TOX + Carboxy terápia + Boto-RX Booster','28 500 Ft','1 óra 30 perc'),R('V-TOX intenzív feszesítés + Carboxy terápia','25 500 Ft','1 óra'),R('Kollagén szálas kezelés + Boto-RX Booster','28 500 Ft','1 óra 30 perc','Új'),R('Felszívódó kollagén szálas kezelés (Thread-Fill)','25 500 Ft','1 óra'),R('KRX Gold peptid kezelés','24 500 Ft','1 óra'),R('Hydro Booster mélyhidratáló kezelés','24 500 Ft','1 óra'),R('PRDN, lazac DNA peptid kezelés','24 500 Ft','1 óra'),R('ZE-TOX, botox hatás méreganyagok nélkül','29 000 Ft','1 óra','Új'),R('+ Carboxy terápia bármelyik kezelés mellé','5 500 Ft','20 perc'),R('+ Gépi tisztító előkészítés','6 500 Ft','20 perc')] },
+        { title: 'Lézeres mezoterápia (MILSYS®)', rows: [R('MILSYS® Pure peptides V.I.P.','36 500 Ft','2 óra','Legnépszerűbb'),R('MILSYS® Diamond Dream LUXURY Genocare','35 000 Ft','2 óra'),R('MILSYS® Shining Star, transzdermális niacinamid kúra','32 500 Ft','2 óra'),R('MILSYS® Lézeres mezoterápia','31 000 Ft','2 óra'),R('MILSYS® Fókuszált mezoterápia','29 000 Ft','1 óra 30 perc'),R('MILSYS® Laser Special, kollagén mátrix rekonstrukció','21 000 Ft','1 óra 30 perc'),R('Decolleté Lifting Care, dekoltázs feszesítés','20 500 Ft','1 óra')] }
+      ],
+      hifu: [
+        { title: 'HIFU, Microson Pen', rows: [R('Teljes arc + toka','89 000 Ft','1 óra 30 perc','Akciós'),R('Teljes arc','110 000 Ft','2 óra'),R('Teljes arc + toka + nyak + dekoltázs','150 000 Ft','2 óra 30 perc'),R('Nyak + dekoltázs','80 000 Ft','1 óra 30 perc'),R('Hifu konzultáció','Konzultáció','45 perc')] }
+      ],
+      egyeb: [
+        { title: 'Érzékeny, rozáceás bőr', rows: [R('Bőrbarrier regeneráló, tű nélküli mezoterápiával','23 500 Ft','1 óra 30 perc'),R('MILSYS Couperosa Ultimate Treatment','25 000 Ft','1 óra 45 perc'),R('Cuperosa Ultimate Treatment','25 000 Ft','1 óra 30 perc'),R('Pirosodásra hajlamos bőr, Janssen Cosmetics','25 000 Ft','1 óra 15 perc'),R('Rozáceás bőr kezelése, Janssen Cosmetics','25 000 Ft','1 óra')] },
+        { title: 'Relaxáló arckezelések, szempilla, Epirex', rows: [R('Janssen Cosmetics arckezelés ultrahanggal és masszázzsal','24 500 Ft','1 óra 15 perc'),R('„Amire a bőrömnek szüksége van” masszázzsal','Ár a foglalásnál','1 óra 30 perc'),R('Szempilla lifting festés nélkül','13 500 Ft','1 óra 15 perc'),R('Szempilla lifting festéssel','14 500 Ft','1 óra 30 perc'),R('Epirex mikrotűs epiláció, áll vagy bajusz','10 000 – 15 000 Ft'),R('Epirex, egyéb területek','10 000 Ft-tól')] }
+      ]
+    };
+    const BAL = ['Lábszár','Hónalj','Bikinivonal','Derék','Áll','Bajusz'];
+    const baTabs = BAL.map((l, i) => Object.assign({ label: l, selected: st.ba === i, pick: () => this.setState({ ba: i }) }, tabStyle(st.ba === i)));
+    const F = [
+      { q: 'Hány alkalomra van szükség?', paras: ['Testrésztől, szőrtípustól függően általában 8-12, ritka esetben 12-14 alkalomra van szükség a tökéletes bársonyosság eléréséhez. A kezeléseket 4-6-8 hetente kell megismételni, hogy újabb és újabb növekedési fázisban lévő szálakat találjunk.'] },
+      { q: 'Mit érzel a kezelés közben?', paras: ['A kezelés fájdalommentes, legfeljebb enyhe diszkomfort érzet vagy mikroepilációs érzés léphet fel. Emellett a kezelőfej hűtését érzed, és ahogy dinamikusan mozgatjuk a kezelőfejet.'] },
+      { q: 'Hogyan működik a technológia?', paras: ['A lézer a leghatékonyabb, legbiztonságosabb szőrtelenítő eljárás. Az Elysion-Pro 2000 W-os csúcsteljesítménye egy 1×1 cm-es kezelőfejre koncentrálódik, míg más, nagyobb kezelőfejű gépeknél ugyanez 2-3 cm²-en oszlik el.','A lézerfény a szőrszálban és a szőrtüszőben található melaninban nyelődik el, hővé alakul, és elpusztulnak a szőrt termelő mátrixsejtek. A hőt a Crystal Freeze hűtőrendszer ellensúlyozza, amely 5 ℃-ra hűti a kezelőfejet, így óvja a bőrt.'] },
+      { q: 'Miben rejlik a végleges szőrtelenség?', paras: ['A növekedési fázisban kezelt szőrtüsző nem termel többé szőrt. A szőr növekedésének 3 fázisa van, és a szőrszálak mindössze 20-30%-a van egyszerre a növekedési (anagén) fázisban, ezért többlépcsős kezeléssorozatra van szükség. A hatás már az első kezelés után látványos.'] },
+      { q: 'Visszanőhet-e a kezelt szőrszál?', paras: ['A növekedési fázisban kezelt szál nem nő vissza. Természetes, hogy az évek során egy-egy új, gyengébb, világos szál megjelenik, ezért évente egy fenntartó kezelés javasolt. Fokozott szőrnövekedést okozhat hormonális változás, gyógyszerek mellékhatása vagy a menopauza is.'] },
+      { q: 'Van olyan szőrtípus, amit a lézer nem kezel?', paras: ['Igen: az ősz, vörös és nagyon világos szőke szálak. Ezeket mikrotűs epilációval (Epirex) tüntetjük el, leginkább az arc területén.'] },
+      { q: 'Hogyan zajlik az első alkalom?', paras: ['Megvizsgáljuk az egészségi állapotot és az esetleges kizáró okokat, átbeszéljük a teendőket és a kérdéseidet. Beleegyező nyilatkozatot és anamnézis lapot töltünk ki, meghatározzuk a fototípusodat. Előkészítjük a bőrt, lefedjük az anyajegyeket, és elkezdjük a szőrtelenítést.'] },
+      { q: 'Mire figyelj a kezelés előtt és után?', paras: ['Előtte:'], items: ['3-4 héttel előtte már ne gyantázz, csak borotválj. Az előző napon borotváld le a területet.','Előző nap ne használj testápolót, kerüld a túl forró fürdőt, szaunát. Aznap ne használj dezodort, krémet vagy sminket.','2 héttel előtte már ne napozz, ne szoláriumozz. 1 nappal előtte ne sportolj, ne uszodázz.','Utána: kend 50 faktoros fényvédővel a területet, másnaptól hidratáld.','1-2 napig ne sportolj, ne uszodázz, ne szaunázz. 1 hétig ne érje napfény vagy szolárium.'] },
+      { q: 'Kizáró okok', paras: ['Ha bármilyen gyógyszeres kezelés alatt állsz, előzetesen jelezd, és megbeszéljük, tudunk-e kezelni.'], items: ['Szívritmus-szabályozó, defibrillátor, elektronikus eszköz vagy fém implantátum','Immunszuppresszív gyógyszerek, az immunrendszer romlása (például AIDS vagy HIV)','Aktív vagy közelmúltbeli rosszindulatú daganat (5 évvel utána kezelhető)','Ellenőrizetlen cukorbetegség, hepatitis vagy májbetegség, epilepszia','Fényérzékenyítő gyógyszerek és kozmetikumok (A-vitamin származékok, retinol, savak)','Izotretinoin (Roaccutane) az elmúlt 6 hónapban; szteroid után 1 hónap, antibiotikum után 2 hét','Terhesség, szoptatás','Vérzékenység, vérhígító szedése, mélyvénás trombózis','Aktív herpesz; krónikus herpesznél előzetes vírusellenes kezelés szükséges','Cserzett bőr, napozás vagy mesterséges barnulás az előző 2 hétben','Aktív bőrbetegség, sérülés vagy visszatérő bőrfertőzés a területen','Tetovált terület, fém implantátum (fog, csavarozás) feletti terület','Műtét a területen az elmúlt 3-6 hónapban, állandó szintetikus töltés a területen','Felszívódó töltőanyag után 1 hónap, Botox után 14 nap, kémiai hámlasztás után 4 hét, mély hámlasztás után legalább 1 hónap'] }
+    ];
+    const faq = F.map((f, i) => { const open = st.faq === i; return { q: f.q, open, sign: open ? '−' : '+', paras: f.paras.map((t) => ({ text: t })), items: (f.items || []).map((t) => ({ text: t })), hasList: !!(f.items && f.items.length), toggle: () => this.setState({ faq: this.state.faq === i ? -1 : i }) }; });
+    return {
+      menuOpen: !!st.menu, menuClosed: !st.menu, menuLabel: st.menu ? 'Menü bezárása' : 'Menü megnyitása', toggleMenu: () => this.setState({ menu: !this.state.menu }), closeMenu: () => this.setState({ menu: false }),
+      zLab: add('labszar'), zHonalj: add('honalj'), zIntim: add('bikini'), zArc: add('all'), zKar: add('alkar'), zHat: add('hat'),
+      presetA: () => setSel(['honalj','bikini']), presetB: () => setSel(['honalj','labszar']), presetC: () => setSel(['honalj','intim','labszar']),
+      packs, popular, gtabs, gitems, selList, ptabs, groups: G[st.ptab] || [], faq, baTabs, hifuMore: !!st.hifuMore, hifuSign: st.hifuMore ? '−' : '+', toggleHifu: () => this.setState({ hifuMore: !this.state.hifuMore }),
+      showAll: !!st.showAll, toggleAll: () => this.setState({ showAll: !this.state.showAll }), allLabel: st.showAll ? 'Kevesebb terület' : 'Összes terület mutatása (' + total39 + ')',
+      ba0: st.ba === 0, ba1: st.ba === 1, ba2: st.ba === 2, ba3: st.ba === 3, ba4: st.ba === 4, ba5: st.ba === 5,
+      noSel: n === 0, hasSel: n > 0, selCountText: n + ' terület',
+      subtotalText: fmt(sub), totalText: fmt(total), seriesText: fmt(total * 7),
+      hasSaving: saving > 0, savingText: fmt(saving), savingLabel,
+      nudge, hasNudge: nudge !== '',
+      clearSel: () => this.setState({ sel: {} })
+    };
+  }
+}
+</script>
+</body>
+</html>

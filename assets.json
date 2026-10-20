@@ -1,0 +1,175 @@
+{
+ "origin": "https://skinvital.vercel.app",
+ "files": [
+  {
+   "path": "apple-touch-icon.png",
+   "sha256": "046bdc649e256ef99793b27b26a586ee30bba50314eb0ac81dd7c34de7c5c61c",
+   "bytes": 12797
+  },
+  {
+   "path": "favicon-32.png",
+   "sha256": "9d9cafef909520595abb8b58a2626e8e8372f78d4bbde7602c2156a37add3fd4",
+   "bytes": 1695
+  },
+  {
+   "path": "favicon.ico",
+   "sha256": "ebe320621c0e0aec1f5135dde4d6ec5c30f99eb618c4e953127b8366746089b8",
+   "bytes": 5502
+  },
+  {
+   "path": "icon-192.png",
+   "sha256": "53bf6ab57a514d16486c8ab08b6b6d02866946807ba02b17eae5b6815b4f6630",
+   "bytes": 15160
+  },
+  {
+   "path": "icon-512.png",
+   "sha256": "2a8fed847588f8fb403242ef9b2920d14e96d9be6806b84c7f47061583772487",
+   "bytes": 58168
+  },
+  {
+   "path": "img/agoston-brigitta.webp",
+   "sha256": "0c53a638aa7fba3c5fe75d0d25aa256ded8eb8db7b92aee6e1b376213dfcde35",
+   "bytes": 4664
+  },
+  {
+   "path": "img/arckezeles.webp",
+   "sha256": "91a98aa47bcf368f96dece341f88904cdd9885280247ebaf8e15bcfa2c8547a2",
+   "bytes": 46284
+  },
+  {
+   "path": "img/bormegujitas.webp",
+   "sha256": "b2581bfb62441d2b2f5d37262df2fe93fa36d0d28727327b2d32e7ab74da7bd8",
+   "bytes": 23810
+  },
+  {
+   "path": "img/elysion-pro.webp",
+   "sha256": "e69f99f7676afbd1fd1e5f0aab622fd8b8f5b45bccb3ad36960dbaccfb875fc6",
+   "bytes": 164358
+  },
+  {
+   "path": "img/eredmeny-all.webp",
+   "sha256": "d64c0104a8147657def1db3888c852f7ed8e0a237ed8a00bff7733fc558efcea",
+   "bytes": 91798
+  },
+  {
+   "path": "img/eredmeny-bajusz.webp",
+   "sha256": "6f1ae6069fe52e00f96accb3cd801eb9729354687ff59839ac0e3156d45c90d0",
+   "bytes": 88694
+  },
+  {
+   "path": "img/eredmeny-bikini.webp",
+   "sha256": "b81d781fae53c6accf095201d19a6396e0104cc6da56e4cc8b6dc39ff90fb642",
+   "bytes": 52842
+  },
+  {
+   "path": "img/eredmeny-derek.webp",
+   "sha256": "88cdcf758084747eb909dfa916520f1a781e46167c3349b153696c64e225adb0",
+   "bytes": 144956
+  },
+  {
+   "path": "img/eredmeny-honalj.webp",
+   "sha256": "873221e8ad6f3abca894b4130f85a0c3fb8b948bfdda6b15ed24c0e05d29dcf8",
+   "bytes": 131540
+  },
+  {
+   "path": "img/eredmeny-labszar.webp",
+   "sha256": "b7f358f690c6a2e210c7435e7cd8261f24ae3c7cab17331e40ec8f05d22d686a",
+   "bytes": 85864
+  },
+  {
+   "path": "img/gepi-arckezeles.webp",
+   "sha256": "cc16dadd2e1802f6290219f0cdfbc4e4d97e868608eb11b17300e9dcedfcceaa",
+   "bytes": 26060
+  },
+  {
+   "path": "img/heininger-zsofia.webp",
+   "sha256": "e73b2d66f748a14c1fbcd76e6831f6da87abc99dbe570ed4b48595435e0f71d3",
+   "bytes": 3112
+  },
+  {
+   "path": "img/hero-labak.webp",
+   "sha256": "8490ecdccf7ad71b4d13c8354bb204d14285dbc534cbb5c41cfc11028da02e8b",
+   "bytes": 35082
+  },
+  {
+   "path": "img/hifu-nyak.webp",
+   "sha256": "b1cabd473019eecbb95a31ea39e162f90abff92f64359fd9043a0bd894c9255e",
+   "bytes": 37482
+  },
+  {
+   "path": "img/hydrocare.webp",
+   "sha256": "6dbd7bf50c9021babb336fa64ee6fdd6c978c13a0311ea9b95781e91548ffbfd",
+   "bytes": 8528
+  },
+  {
+   "path": "img/kezelofej.webp",
+   "sha256": "f2fbe7beb388e33b1932e9bc05005c0b3567a1b335b850973ecefb53532953e2",
+   "bytes": 32348
+  },
+  {
+   "path": "img/logo.png",
+   "sha256": "ca46ff53a3b5a3697c3059dc706f0c54a95a353826c53cee3603bd7eabb15f37",
+   "bytes": 15665
+  },
+  {
+   "path": "img/logo.webp",
+   "sha256": "ae8c8b7c6d603dd9e5982e579f7c942c79fbc02d6c3fe0ec1aaa8a37439cb2f8",
+   "bytes": 9790
+  },
+  {
+   "path": "img/microson-pen.webp",
+   "sha256": "6868240263a4784c54bdc1af567f6142412c2db80139b70831629969ae6dbcf7",
+   "bytes": 9150
+  },
+  {
+   "path": "img/milsys.webp",
+   "sha256": "e858718981d22576685734d3ac63a50639966f7ad2ac78c13677e792848969c8",
+   "bytes": 18948
+  },
+  {
+   "path": "img/szalon-kezeles.webp",
+   "sha256": "af5b8eb5d7ac3d754e850aac6fcd18e79917e7e2c22dfa115e179b31aa64637d",
+   "bytes": 144918
+  },
+  {
+   "path": "img/szirom.webp",
+   "sha256": "978e966d738d272b12ba7ce6761125a746389bfc2f5cf0065705a2d76084c0a2",
+   "bytes": 12130
+  },
+  {
+   "path": "img/terulet-arc.webp",
+   "sha256": "ec2d630261df5955195e268526e55344ac459c4991b4555c50d6d6ea6c92b470",
+   "bytes": 46068
+  },
+  {
+   "path": "img/terulet-bikini.webp",
+   "sha256": "7af89210b1ee78540e5f52d9c4e3f91741e47315924649e26f0276429ff6f47a",
+   "bytes": 39692
+  },
+  {
+   "path": "img/terulet-hat.webp",
+   "sha256": "f203d57661ec82ad2651b5f84a61febdf95d40e3c15cd2d8ac2da03c16137054",
+   "bytes": 396926
+  },
+  {
+   "path": "img/terulet-honalj.webp",
+   "sha256": "21a4413fc1e9ab26e737a9961f82cf023f1f310185081d18114f9a695b1ad3c9",
+   "bytes": 76438
+  },
+  {
+   "path": "img/terulet-kar.webp",
+   "sha256": "20e05e57df1004af660e22f72c14b08168d2c3401f2c9d2ecbcbf1b821284f77",
+   "bytes": 50396
+  },
+  {
+   "path": "img/terulet-lab.webp",
+   "sha256": "4eadb2e4f8a021e3cef304095882aebe353720edd8bd7ee0cdb62d4171dedf57",
+   "bytes": 12178
+  },
+  {
+   "path": "og-image.jpg",
+   "sha256": "d3ec3fe3c616cf41170dfca90155135898eda2d91c8e4baa2d1698376efef1fa",
+   "bytes": 73249
+  }
+ ]
+}
